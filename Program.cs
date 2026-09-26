@@ -1,5 +1,4 @@
-﻿/*
-using System;
+﻿using System;
 
 namespace FirstApp
 {
@@ -37,24 +36,5 @@ namespace FirstApp
         }
     }
 }
-*/
-using System;
 
-namespace FirstApp
-{
-    internal class Program
-    {
-        enum bank
-        {
-            Текущий=1000,
-            сберегательный=15000
-        }
-        static void Main(string[] args)
-        {
-            bank now = bank.Текущий;
-            Console.WriteLine("bank - {0}", now, (int)now);
-            Console.WriteLine("bank - {0}",(int)now);
-        }
-    }
-}
     
